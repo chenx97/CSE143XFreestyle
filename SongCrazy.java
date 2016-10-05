@@ -18,9 +18,9 @@ public class SongCrazy {
         for (int x = 0; x < 5; x++) {
             startLine(animals[x],",");
             System.out.println(secondline[x]);
-                for (int y = x; y > 0; y--) {
-                    swallowAtoCatchB(animals[y], animals[y-1]);
-                }
+            for (int y = x; y > 0; y--) {
+                swallowAtoCatchB(animals[y], animals[y-1]);
+            }
             swallowAtoCatchB("spider", "fly");
             end();
         }
