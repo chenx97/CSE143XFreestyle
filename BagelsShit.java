@@ -61,6 +61,7 @@ public class BagelsShit {
         boolean correct = false;// whether the user gets the correct answer
         answer = randomAnswer(answer, digit, r);
         String guess;
+
         while (!correct) {
             System.out.print("Your guess? ");
             guess = console.next();
@@ -80,6 +81,7 @@ public class BagelsShit {
                 fermiPicaBagels(answer, guess);
             }
         }
+
         return totalGuess;
     }
 
@@ -107,6 +109,7 @@ public class BagelsShit {
                 guess = replaceDigit(guess, x, "");
             }
         }
+
         // pica is only represented once
         boolean pica = false;
         for (int x = 0; x < guess.length(); x++) {
