@@ -68,8 +68,6 @@ fn one_game(size: &usize) -> i32 {
     for _ in 0..*size {
         answer.push((rng.next_u32() % 9 + 1) as i32);
     }
-    // TODO delete
-    println!("Hint: {:?}", answer);
     loop {
         print!("Your guess? ");
         let mut txt = String::new();
