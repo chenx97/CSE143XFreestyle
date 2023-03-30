@@ -3,3 +3,6 @@ members = [
   "song-crazy",
   "bagels-with-vector",
 ]
+
+[profile.release]
+lto = true

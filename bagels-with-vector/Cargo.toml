@@ -8,6 +8,3 @@ edition = "2018"
 
 [dependencies]
 rand = "*"
-
-[profile.release]
-lto = true
