@@ -2,6 +2,7 @@
 members = [
   "song-crazy",
   "bagels-with-vector",
+  "guitarhero",
 ]
 
 [profile.release]
