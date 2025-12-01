@@ -1,4 +1,4 @@
-use rand::thread_rng;
+use rand::rng;
 use rand::RngCore;
 use std::cmp::min;
 use std::io::{stdin, stdout, Write};
@@ -60,7 +60,7 @@ fn main() {
 
 fn one_game(size: &usize) -> i32 {
     // main logic
-    let mut rng = thread_rng();
+    let mut rng = rng();
     let mut answer = Vec::<i32>::new();
     let mut guess_count = 0;
 
