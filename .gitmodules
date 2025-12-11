@@ -1,0 +1,3 @@
+[submodule "guitarhero"]
+	path = guitarhero
+	url = https://github.com/chenx97/GuitarHero.git
